@@ -25,13 +25,24 @@
 ## 📂 File Structure
 ```plaintext
 nalanda-library-management-system/
-├── server.js 
-│── server.js          # Express server entry point
-│   ├── routes/            # API routes (books, users, borrow)
-│   ├── models/            # Database schemas
-│   ├── controllers/       # Business logic for routes
-│   └── config/            # DB connection & environment setup
+├── server.js                 # Express server entry point
+│── config                    # DB connection & environment setup
+|   |──db.js
+│── routes/                   # API routes (books, users, borrow)
+|   |──authRoutes.js
+|   |──bookRoutes.js
+|   |──borrowRoutes.js
+│── models/                   # Database schemas
+|   |──Books.js
+|   |──Borrow.js
+|   |──User.js
+│── controllers/              # Business logic for routes
+|   |──authController.js
+|   |──bookController.js
+|   |──borrowController.js
+│── utils/                    # JWT Tokens
+|   |──jwt.js
 │
-├── .env                   # Example environment variables
-├── package.json           # Dependencies and scripts
-└── README.md              # Project documentation (this file)
+├── .env                      # Example environment variables
+├── package.json              # Dependencies and scripts
+└── README.md                 # Project documentation (this file)
