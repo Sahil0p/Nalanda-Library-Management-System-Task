@@ -98,12 +98,14 @@ nalanda-library-management-system/
 - `PUT /api/books/:id` → Update book (Admin only)
 - `DELETE /api/books/:id` → Delete book (Admin only)
 
-### 📖 Borrow
-#### Member Action - Use Bearer Token (Member)
+### 📖 Borrow - Member Only
+-Member Action - Use Bearer Token (Member)
 - `POST /api/borrow/:bookId` → Borrow a book
 - `GET /api/borrow/history` → View borrowing history
 - `POST /api/borrow/return/:id` → Return a borrowed book
-#### Admin Action - Use Bearer Token (Admin)
+
+### 📖 Borrow - Admin Only
+- Admin Action - Use Bearer Token (Admin)
 - `GET /api/reports/most-borrowed` → Most borrowed book
 - `GET /api/reports/active-members` → Number of active members
 - `GET /api/reports/availability` → Number of books available
