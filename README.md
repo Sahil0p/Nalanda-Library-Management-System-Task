@@ -127,17 +127,24 @@ Or you can import it manually:
 3. Paste the above link  
 4. Start testing the APIs 🎉
 
-🚀 How to Use
+### 🚀 How to Use
 1. Import the provided Postman collection into your Postman workspace.  
 2. Set up the required environment variables (if any, e.g., `BASE_URL`, `TOKEN`).  
 3. Run the APIs according to the desired functionality. 
 
-⚡ This collection includes:
+### ⚡ This collection includes:
 - Authentication APIs of Admin & Members (Register, Login)
 - Book Management APIs
 - Borrow/Return APIs
 
+### ✅ Notes
+- Use appropriate authentication tokens (if required) before calling APIs.  
+- Ensure that book IDs and member IDs are valid when testing borrow/return APIs.
+
+  
 ---
+
+
 ## 📸 MongoDB Schema 
 Below are the designed MongoDB schemas for **Users**, **Books**, and **Borrow Records**:
 
