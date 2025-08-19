@@ -56,7 +56,6 @@ nalanda-library-management-system/
 
 ### 2️⃣ Install dependencies
 - npm install
-- cd Nalanda-Library-Management-System-Task
 
 ### 3️⃣ Configure environment variables
 - Create a .env file in the root directory:
