@@ -152,10 +152,10 @@ Or you can import it manually:
 Below are the designed MongoDB schemas for **Users**, **Books**, and **Borrow Records**:
 
 ### 🧑 Users Schema
-![Users Schema](./Screenshots/Users.png)
+- ![Users Schema](./Screenshots/Users.png)
 
 ### 📚 Books Schema
-![Books Schema](./Screenshots/Books.png)
+- ![Books Schema](./Screenshots/Books.png)
 
 ### 📖 Borrow Records Schema
-![Borrow Records Schema](./Screenshots/Borrow.png)
+- ![Borrow Records Schema](./Screenshots/Borrow.png)
