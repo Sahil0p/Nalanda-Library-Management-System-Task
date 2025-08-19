@@ -88,13 +88,16 @@ ENC_KEY_BASE64=your_enc_key
 ## 📡 API Endpoints
 
 ### 🔑 Authentication
-- `POST /api/register` → Register a new user
-- `POST /api/login` → Login and receive JWT token
+### 🧑 Admin
+- `POST /api/register` → Register a new admin
+- `GET /api/login` → Login and receive JWT token
+### 🧑 Members
+- `POST /api/register` → Register a new member
+- `GET /api/login` → Login and receive JWT token
 
 ### 📚 Books
-- `GET /api/books` → Get all books
-- `GET /api/books/:id` → Get a single book
 - `POST /api/books` → Add a book (Admin only)
+- `GET /api/books` → List all books
 - `PUT /api/books/:id` → Update book (Admin only)
 - `DELETE /api/books/:id` → Delete book (Admin only)
 
@@ -129,7 +132,7 @@ Or you can import it manually:
 
 ### 🚀 How to Use
 1. Import the provided Postman collection into your Postman workspace.  
-2. Set up the required environment variables (if any, e.g., `BASE_URL`, `TOKEN`).  
+2. Set up the required environment variables (if any, e.g., `BASE_URL`, `TOKEN`). I've used port: 4000 as my localhost.  
 3. Run the APIs according to the desired functionality. 
 
 ### ⚡ This collection includes:
