@@ -114,7 +114,7 @@ nalanda-library-management-system/
 
 To make testing easier, we’ve created a Postman collection containing all API endpoints.
 
-👉 **[Click here to open the Postman Collection]([YOUR_COLLECTION_LINK](https://sahilahmed0029-3594081.postman.co/workspace/Sahil-Ahmed's-Workspace~507292b8-beec-4de7-81da-d9594af9042c/collection/47691689-d98af04f-7edb-4e5f-b670-ef4cebe83126?action=share&creator=47691689))**  
+👉 **[Click here to open the Postman Collection](https://sahilahmed0029-3594081.postman.co/workspace/Sahil-Ahmed's-Workspace~507292b8-beec-4de7-81da-d9594af9042c/collection/47691689-d98af04f-7edb-4e5f-b670-ef4cebe83126?action=share&creator=47691689)**  
 
 Or you can import it manually:  
 
