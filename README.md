@@ -114,7 +114,9 @@ ENC_KEY_BASE64=your_enc_key
 
 ## 📬 Postman Collection
 
-To make testing easier, we’ve created a Postman collection containing all API endpoints.
+This Postman collection provides API endpoints for managing the **Nalanda Library Management System**.  
+To make testing easier, I’ve created a Postman collection containing all API endpoints.
+
 
 👉 **[Click here to open the Postman Collection](https://sahilahmed0029-3594081.postman.co/workspace/Sahil-Ahmed's-Workspace~507292b8-beec-4de7-81da-d9594af9042c/collection/47691689-d98af04f-7edb-4e5f-b670-ef4cebe83126?action=share&creator=47691689)**  
 
@@ -123,7 +125,12 @@ Or you can import it manually:
 1. Open **Postman**  
 2. Click **Import**  
 3. Paste the above link  
-4. Start testing the APIs 🎉  
+4. Start testing the APIs 🎉
+
+🚀 How to Use
+1. Import the provided Postman collection into your Postman workspace.  
+2. Set up the required environment variables (if any, e.g., `BASE_URL`, `TOKEN`).  
+3. Run the APIs according to the desired functionality. 
 
 ⚡ This collection includes:
 - Authentication APIs of Admin & Members (Register, Login)
