@@ -60,8 +60,51 @@ nalanda-library-management-system/
 
 ### 3️⃣ Configure environment variables
 - Create a .env file in the root directory:
-- PORT=5000
+- PORT=4000
 - MONGO_URI=your_mongodb_connection_string
 - JWT_SECRET=your_secret_key
 
-  
+### 4️⃣ Run the application
+- npm run dev
+
+---
+
+## 🔑 Authentication & Role Usage
+### Admin:
+- Can add/update/delete books
+- Can view all borrowed books and members
+
+### Member:
+- Can view books
+- Can borrow/return books
+
+### ⚠️ Important while testing in Postman:
+- Use Bearer Token (Admin) when adding/updating/deleting books
+- Use Bearer Token (Member) when borrowing/returning books
+- Switch back to Admin Token to view borrowing statistics
+
+---
+
+## 📬 API Endpoints
+## 📡 API Endpoints
+
+### 🔑 Authentication
+- `POST /api/register` → Register a new user
+- `POST /api/login` → Login and receive JWT token
+
+### 📚 Books
+- `GET /api/books` → Get all books
+- `GET /api/books/:id` → Get a single book
+- `POST /api/books` → Add a book (Admin only)
+- `PUT /api/books/:id` → Update book (Admin only)
+- `DELETE /api/books/:id` → Delete book (Admin only)
+
+### 📖 Borrow
+- Member Action - Use Bearer Token (Member)
+- `POST /api/borrow/:bookId` → Borrow a book
+- `GET /api/borrow/history` → View borrowing history
+- `POST /api/borrow/return/:id` → Return a borrowed book
+- Admin Action - Use Bearer Token (Admin)
+- `GET /api/reports/most-borrowed` → Most borrowed book
+- `GET /api/reports/active-members` → Number of active members
+- `GET /api/reports/availability` → Number of books available
