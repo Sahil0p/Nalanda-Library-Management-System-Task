@@ -41,7 +41,6 @@ nalanda-library-management-system/
 |   |──borrowController.js
 │── utils/                    # JWT Tokens
 |   |──jwt.js
-│
 ├── .env                      # Example environment variables
 ├── package.json              # Dependencies and scripts
 └── README.md                 # Project documentation (this file)
