@@ -59,12 +59,13 @@ nalanda-library-management-system/
 - cd Nalanda-Library-Management-System-Task
 
 ### 3️⃣ Configure environment variables
-Create a .env file in the root directory:
+- Create a .env file in the root directory:
+```plaintext
 - `PORT=4000`
 - `MONGO_URI=your_mongodb_connection_string`
 - `JWT_SECRET=your_secret_key`
 - `JWT_EXPIRES_IN=your_days`
-
+```
 ### 4️⃣ Run the application
 - npm run dev
 
