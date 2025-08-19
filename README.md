@@ -120,10 +120,10 @@ Or you can import it manually:
 
 1. Open **Postman**  
 2. Click **Import**  
-3. Paste the above link or upload the collection file (`.json`)  
+3. Paste the above link  
 4. Start testing the APIs 🎉  
 
 ⚡ This collection includes:
-- Authentication APIs (Register, Login)
+- Authentication APIs of Admin & Members (Register, Login)
 - Book Management APIs
 - Borrow/Return APIs
