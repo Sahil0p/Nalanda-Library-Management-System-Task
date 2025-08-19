@@ -101,8 +101,8 @@ ENC_KEY_BASE64=your_enc_key
 ### 📖 Borrow - Member Only
 - Member Action - Use Bearer Token (Member)
 - `POST /api/borrow/:bookId` → Borrow a book
-- `GET /api/borrow/history` → View borrowing history
-- `POST /api/borrow/return/:id` → Return a borrowed book
+- `GET /api/history` → View borrowing history
+- `POST /api/return/:bookId` → Return a borrowed book
 
 ### 📖 Borrow - Admin Only
 - Admin Action - Use Bearer Token (Admin)
