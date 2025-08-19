@@ -61,10 +61,12 @@ nalanda-library-management-system/
 ### 3️⃣ Configure environment variables
 - Create a .env file in the root directory:
 ```plaintext
-- `PORT=4000`
-- `MONGO_URI=your_mongodb_connection_string`
-- `JWT_SECRET=your_secret_key`
-- `JWT_EXPIRES_IN=your_days`
+PORT=4000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+JWT_EXPIRES_IN=your_days
+# 32-byte (base64 or hex) encryption key for AES-256-GCM. Example below is base64 of 32 bytes.
+ENC_KEY_BASE64=your_enc_key
 ```
 ### 4️⃣ Run the application
 - npm run dev
