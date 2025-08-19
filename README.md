@@ -132,3 +132,13 @@ Or you can import it manually:
 
 ---
 ## 📸 MongoDB Schema 
+Below are the designed MongoDB schemas for **Users**, **Books**, and **Borrow Records**:
+
+### 🧑 Users Schema
+![Users Schema](./Screenshots/Users.png)
+
+### 📚 Books Schema
+![Books Schema](./Screenshots/Books.png)
+
+### 📖 Borrow Records Schema
+![Borrow Records Schema](./Screenshots/Borrow.png)
