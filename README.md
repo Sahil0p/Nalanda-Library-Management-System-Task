@@ -85,7 +85,6 @@ nalanda-library-management-system/
 
 ---
 
-## 📬 API Endpoints
 ## 📡 API Endpoints
 
 ### 🔑 Authentication
@@ -108,3 +107,23 @@ nalanda-library-management-system/
 - `GET /api/reports/most-borrowed` → Most borrowed book
 - `GET /api/reports/active-members` → Number of active members
 - `GET /api/reports/availability` → Number of books available
+
+---
+
+## 📬 Postman Collection
+
+To make testing easier, we’ve created a Postman collection containing all API endpoints.
+
+👉 **[Click here to open the Postman Collection]([YOUR_COLLECTION_LINK](https://sahilahmed0029-3594081.postman.co/workspace/Sahil-Ahmed's-Workspace~507292b8-beec-4de7-81da-d9594af9042c/collection/47691689-d98af04f-7edb-4e5f-b670-ef4cebe83126?action=share&creator=47691689))**  
+
+Or you can import it manually:  
+
+1. Open **Postman**  
+2. Click **Import**  
+3. Paste the above link or upload the collection file (`.json`)  
+4. Start testing the APIs 🎉  
+
+⚡ This collection includes:
+- Authentication APIs (Register, Login)
+- Book Management APIs
+- Borrow/Return APIs
