@@ -12,13 +12,12 @@
 
 ---
 
-## 🛠️ Technologies Used
-- ✅ **HTML5, CSS3, JavaScript** – Frontend structure and interactions  
+## 🛠️ Technologies Used 
 - ✅ **Node.js + Express.js** – Backend server and API handling  
 - ✅ **MongoDB** – Database for storing users & books  
 - ✅ **Mongoose** – Database ORM for easy queries  
 - ✅ **Git & GitHub** – Version control and collaboration
-- ✅ **Postman** – API Endpoints  
+- ✅ **Postman** – API Endpoints Testing 
 
 ---
 
