@@ -46,3 +46,22 @@ nalanda-library-management-system/
 ├── .env                      # Example environment variables
 ├── package.json              # Dependencies and scripts
 └── README.md                 # Project documentation (this file)
+```
+---
+
+## ⚙️ Setup Instructions
+### 1️⃣ Clone the repository
+- git clone https://github.com/Sahil0p/Nalanda-Library-Management-System-Task.git
+- cd Nalanda-Library-Management-System-Task
+
+### 2️⃣ Install dependencies
+- npm install
+- cd Nalanda-Library-Management-System-Task
+
+### 3️⃣ Configure environment variables
+- Create a .env file in the root directory:
+- PORT=5000
+- MONGO_URI=your_mongodb_connection_string
+- JWT_SECRET=your_secret_key
+
+  
