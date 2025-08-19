@@ -129,3 +129,6 @@ Or you can import it manually:
 - Authentication APIs of Admin & Members (Register, Login)
 - Book Management APIs
 - Borrow/Return APIs
+
+---
+## 📸 MongoDB Schema 
