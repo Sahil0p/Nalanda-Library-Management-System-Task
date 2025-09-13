@@ -151,8 +151,8 @@ Or you can import it manually:
 ## 📸 MongoDB Schema 
 Below are the designed MongoDB schemas for **Users**, **Books**, and **Borrow Records**:
 
-### 🧑 Users Schema
-- !(./Screenshots/Users.png)
+### 🧑 Users Schema qwertyuiopasdfghjkl
+- ![Users Schema](./Screenshots/Users.png)
 
 ### 📚 Books Schema
 - ![Books Schema](./Screenshots/Books.png)
